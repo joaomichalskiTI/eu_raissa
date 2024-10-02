@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('"https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet"') format('woff2');
+}
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+   min-height: 100vh;
+
+}
+
+.abraca {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url(ela.jpg);
+   backdrop-filter: blur(5px);
+   background-size: 75vh;
+   animation: jump 2s infinite;
+}
+@keyframes jump {
+   0% {
+      transform: scale(1);
+   }
+   15% {
+      transform: scale(1.08);
+   }
+   20% {
+      transform: scale(1);
+   }
+   30% {
+      transform: scale(1.09);
+   }
+   100% {
+      transform: scale(1);
+   }
+}
+
+.heart{
+   color: red;
+}
+.div1{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.serif{
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+}
+.parag1{
+   font-family: 'Courier New', Courier, monospace;
+   margin-top: 10px;
+   display: flex;
+   justify-content:center ;
+   background: rgba(255, 255, 255, 0.451);
+   backdrop-filter: blur( 10px );
+   color: black;
+   border-radius: 100px;
+   width: 260px;
+   height: 30px;
+   font-size: 10px;
+
+}
+.mostrador1{
+   border: 2px solid white;
+   background: rgba(255, 255, 255, 0.451);
+   backdrop-filter: blur( 10px );
+   color: black;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 170px;
+   width: 270px;
+   gap: 10px;
+   margin-top: 15px;
+   font-size: 35px;
+   font-family: 'Courier New', Courier, monospace;
+}
+.parag2{
+   font-family: 'Courier New', Courier, monospace;
+   background: rgba(255, 255, 255, 0.451);
+   backdrop-filter: blur( 10px );
+   color: black;
+   border-radius: 100px;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   width: 320px;
+   height: 28px;
+   font-size: 8px;
+}
+.mostrador2{
+   font-family: 'Courier New', Courier, monospace;
+   border: 2px solid white;
+   background: rgba(255, 255, 255, 0.451);
+   backdrop-filter: blur( 10px );
+   color: black;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 170px;
+   width: 270px;
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+}
+.text{
+   font-size: 18px;
+}
+.text2{
+   font-size: 10px;
+}
